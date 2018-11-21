@@ -7,7 +7,7 @@ namespace BOT_WBG
     {
         private static void Main()
         {          
-          Console.WriteLine("Olá Criador!");
+          Console.WriteLine("Olá, Criador!");
         }
     }
 }
