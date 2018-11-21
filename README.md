@@ -1,3 +1,2 @@
 # BOT-WBG
-Desenvolvedora RafaelTuber
-=====
+* Desenvolvedora RafaelTuber
