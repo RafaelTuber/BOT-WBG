@@ -20,4 +20,8 @@
     <Optimize>true</Optimize>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Unity" Version="5.8.11" />
+  </ItemGroup>
+
 </Project>
