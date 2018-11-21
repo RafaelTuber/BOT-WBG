@@ -8,6 +8,7 @@ namespace BOT_WBG
         private static void Main()
         {          
           Console.WriteLine("Hello Discord!");
+
         }
     }
 }
