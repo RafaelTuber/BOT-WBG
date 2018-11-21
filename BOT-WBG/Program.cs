@@ -1,12 +1,13 @@
 ﻿using System;
+using System.Linq;
 
 namespace BOT_WBG
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        private static void Main()
+        {          
+          Console.WriteLine("Hello Discord!");
         }
     }
 }
