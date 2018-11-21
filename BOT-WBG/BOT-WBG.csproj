@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>BOT_WBG</RootNamespace>
+    <Version>3.0.0</Version>
+    <Authors>RafaelTuber</Authors>
+    <Company>WorkBestGames.com</Company>
+    <Product>Bot Discord</Product>
+    <Copyright>© WorkBestGames LTDA</Copyright>
+    <PackageLicenseUrl>https://workbestgames.com/licence</PackageLicenseUrl>
+    <PackageProjectUrl>https://workbestgames.com</PackageProjectUrl>
+    <NeutralLanguage>pt-BR</NeutralLanguage>
+    <PackageTags>© WorkBestGames LTDA</PackageTags>
+    <ApplicationIcon>iconfinder_Discord_2745013.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+</Project>
