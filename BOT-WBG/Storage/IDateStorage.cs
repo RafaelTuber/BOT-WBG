@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BOT_WBG.Storage
+﻿namespace BOT_WBG.Storage
 {
     public interface IDateStorage
     {

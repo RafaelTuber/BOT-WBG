@@ -12,10 +12,9 @@ namespace BOT_WBG.Discord
                 LogLevel = LogSeverity.Verbose
             };
         }
-    }
-
-    public static DiscordSocketConfig GetNew()
-    {
-        return new DiscordSocketConfig();
+        public static DiscordSocketConfig GetNew()
+        {
+            return new DiscordSocketConfig();
+        }
     }
 }

@@ -4,7 +4,7 @@ using System;
 
 namespace BOT_WBG
 {
-    class Program
+    internal class Program
     {
         private static void Main()
         {
@@ -16,6 +16,10 @@ namespace BOT_WBG
                 Token = "ABC",
                 SocketConfig = SocketConfig.GetDefault()
             };
+
+            var connection = Unity.Resolve<Connection>();
+
+            Console.ReadKey();
         }
     }
 }
