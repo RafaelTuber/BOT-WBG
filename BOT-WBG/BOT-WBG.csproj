@@ -13,7 +13,7 @@
     <PackageProjectUrl>https://workbestgames.com</PackageProjectUrl>
     <NeutralLanguage>pt-BR</NeutralLanguage>
     <PackageTags>© WorkBestGames LTDA</PackageTags>
-    <ApplicationIcon>iconfinder_Discord_2745013.ico</ApplicationIcon>
+    <ApplicationIcon></ApplicationIcon>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
