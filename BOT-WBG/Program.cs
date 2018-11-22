@@ -1,7 +1,6 @@
-﻿using BOT_WBG.Storage;
-using Discord.WebSocket;
+﻿using BOT_WBG.Discord;
+using BOT_WBG.Discord.Entities;
 using System;
-using System.Threading.Tasks;
 
 namespace BOT_WBG
 {
@@ -11,6 +10,13 @@ namespace BOT_WBG
         {
             Unity.RegisterTypes();
             Console.WriteLine("Olá, Discord!");
+
+
+            var botConfig = new BotConfig
+            {
+                Token = "ABC",
+                SocketConfig = SocketConfig.GetDefault()
+            };
         }
     }
 }
