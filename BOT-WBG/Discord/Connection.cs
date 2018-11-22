@@ -1,6 +1,7 @@
 ﻿using Discord.WebSocket;
 using BOT_WBG.Discord.Entities;
 using System.Threading.Tasks;
+using Discord;
 
 namespace BOT_WBG.Discord
 {
@@ -17,7 +18,11 @@ namespace BOT_WBG.Discord
         internal async Task ConnectAsyng(BotConfig config)
         {
             _client.Log += _logger.Log;
-            //Tudo: Continua
+
+            await _client.LoginAsync(TokenType.Bot, config.Token);
+            await _client.StartAsync();
+
+            await Task.Delay(-1);
         }
     }
 }

@@ -18,7 +18,7 @@ namespace BOT_WBG.Storage.Implementation
         public void StoreObject(object obj, string key)
         {
             var file = $"{key}.json";
-            CreateDirectory(file);
+            CreateDirectory(Path.GetDirectoryName(file));
             var json = JsonConvert.SerializeObject(obj);
             File.WriteAllText(file, json);
 

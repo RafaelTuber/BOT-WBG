@@ -26,7 +26,7 @@ namespace BOT_WBG
         public static void RegisterTypes()
         {
             _container = new UnityContainer();
-            _container.RegisterSingleton<IDateStorage, InMemoryStorage>();
+            _container.RegisterSingleton<IDateStorage, JsonStorage>();
             _container.RegisterSingleton<ILogger, Logger>();
             _container.RegisterType<DiscordSocketConfig>(new InjectionFactory(i => SocketConfig.GetDefault()));
             _container.RegisterSingleton<DiscordSocketClient>(new InjectionConstructor(typeof(DiscordSocketConfig)));
