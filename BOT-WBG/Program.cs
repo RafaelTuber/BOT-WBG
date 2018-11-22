@@ -11,7 +11,6 @@ namespace BOT_WBG
             Unity.RegisterTypes();
             Console.WriteLine("Olá, Discord!");
 
-
             var botConfig = new BotConfig
             {
                 Token = "ABC",
