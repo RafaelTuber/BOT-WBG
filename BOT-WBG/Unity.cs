@@ -1,6 +1,7 @@
 ﻿using BOT_WBG.Storage;
 using BOT_WBG.Storage.Implementation;
 using Unity;
+using Unity.Lifetime;
 using Unity.Resolution;
 
 namespace BOT_WBG
@@ -22,7 +23,7 @@ namespace BOT_WBG
         public static void RegisterTypes()
         {
             _container = new UnityContainer();
-            _container.RegisterType<IDateStorage, InMemoryStorage>();
+            _container.RegisterType<IDateStorage, InMemoryStorage>(new ContainerControlledLifetimeManager());
         }
 
         public static T Resolve<T>()

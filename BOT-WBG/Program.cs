@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BOT_WBG.Storage;
+using Discord.WebSocket;
+using System;
+using System.Threading.Tasks;
 
 namespace BOT_WBG
 {
@@ -7,7 +10,7 @@ namespace BOT_WBG
         private static void Main()
         {
             Unity.RegisterTypes();
-            Console.WriteLine("Olá, Criador!");
+            Console.WriteLine("Olá, Discord!");
         }
     }
 }
