@@ -5,9 +5,8 @@ using System.Text;
 
 namespace BOT_WBG.Discord.Entities
 {
-    class BotConfig
+    public class BotConfig
     {
         public string Token { get; set; }
-        public DiscordSocketConfig SocketConfig { get; set; }
     }
 }
